@@ -63,7 +63,7 @@ const Read = () => {
         </Table.Cell>
 
         <Table.Cell>
-           <Button onClick={()=>onDelete(data.id)} style={{backgroundColor:"Red",color:"white"}}>Delete</Button> 
+           <Button onClick={()=>onDelete(data.id)} style={{backgroundColor:"Orange",color:"white"}}>Delete</Button> 
         </Table.Cell>
 
       </Table.Row>
